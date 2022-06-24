@@ -18,6 +18,7 @@ fun NavGraphBuilder.loginNavGraph() {
         startDestination = "login/login"
     ) {
         composable("login/login") {
+
             LoginScreen()
         }
     }
